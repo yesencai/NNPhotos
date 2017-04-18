@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCD19CFB1EA62076003807CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19CFA1EA62076003807CF /* main.m */; };
+		FCD19CFE1EA62076003807CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19CFD1EA62076003807CF /* AppDelegate.m */; };
+		FCD19D011EA62076003807CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D001EA62076003807CF /* ViewController.m */; };
+		FCD19D041EA62076003807CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD19D021EA62076003807CF /* Main.storyboard */; };
+		FCD19D061EA62076003807CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD19D051EA62076003807CF /* Assets.xcassets */; };
+		FCD19D091EA62076003807CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD19D071EA62076003807CF /* LaunchScreen.storyboard */; };
+		FCD19D141EA62077003807CF /* NNPhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D131EA62077003807CF /* NNPhotosTests.m */; };
+		FCD19D1F1EA62077003807CF /* NNPhotosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D1E1EA62077003807CF /* NNPhotosUITests.m */; };
+		FCD19D4E1EA620B0003807CF /* MBProgressHUD+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D2F1EA620B0003807CF /* MBProgressHUD+PYExtension.m */; };
+		FCD19D4F1EA620B0003807CF /* UIView+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D311EA620B0003807CF /* UIView+PYExtension.m */; };
+		FCD19D501EA620B0003807CF /* PYPhotosNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D341EA620B0003807CF /* PYPhotosNavigationController.m */; };
+		FCD19D511EA620B0003807CF /* PYPhotosPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D361EA620B0003807CF /* PYPhotosPreviewController.m */; };
+		FCD19D521EA620B0003807CF /* PYPhotosReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D381EA620B0003807CF /* PYPhotosReaderController.m */; };
+		FCD19D531EA620B0003807CF /* PYPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D3A1EA620B0003807CF /* PYPhotosViewController.m */; };
+		FCD19D541EA620B0003807CF /* PYPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D3D1EA620B0003807CF /* PYPhoto.m */; };
+		FCD19D551EA620B0003807CF /* PYPhotoBrowserConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D401EA620B0003807CF /* PYPhotoBrowserConst.m */; };
+		FCD19D561EA620B0003807CF /* PYProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D421EA620B0003807CF /* PYProgressView.m */; };
+		FCD19D571EA620B0003807CF /* PYPhotosView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCD19D441EA620B0003807CF /* PYPhotosView.bundle */; };
+		FCD19D581EA620B0003807CF /* PYPhotoBrowseView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D471EA620B0003807CF /* PYPhotoBrowseView.m */; };
+		FCD19D591EA620B0003807CF /* PYPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D491EA620B0003807CF /* PYPhotoCell.m */; };
+		FCD19D5A1EA620B0003807CF /* PYPhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D4B1EA620B0003807CF /* PYPhotosView.m */; };
+		FCD19D5B1EA620B0003807CF /* PYPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D4D1EA620B0003807CF /* PYPhotoView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCD19D101EA62076003807CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD19CEE1EA62076003807CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD19CF51EA62076003807CF;
+			remoteInfo = NNPhotos;
+		};
+		FCD19D1B1EA62077003807CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD19CEE1EA62076003807CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD19CF51EA62076003807CF;
+			remoteInfo = NNPhotos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCD19CF61EA62076003807CF /* NNPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD19CFA1EA62076003807CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCD19CFC1EA62076003807CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCD19CFD1EA62076003807CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCD19CFF1EA62076003807CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCD19D001EA62076003807CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCD19D031EA62076003807CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCD19D051EA62076003807CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD19D081EA62076003807CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCD19D0A1EA62076003807CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD19D0F1EA62076003807CF /* NNPhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNPhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD19D131EA62077003807CF /* NNPhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNPhotosTests.m; sourceTree = "<group>"; };
+		FCD19D151EA62077003807CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD19D1A1EA62077003807CF /* NNPhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNPhotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD19D1E1EA62077003807CF /* NNPhotosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNPhotosUITests.m; sourceTree = "<group>"; };
+		FCD19D201EA62077003807CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD19D2E1EA620B0003807CF /* MBProgressHUD+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+PYExtension.h"; sourceTree = "<group>"; };
+		FCD19D2F1EA620B0003807CF /* MBProgressHUD+PYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+PYExtension.m"; sourceTree = "<group>"; };
+		FCD19D301EA620B0003807CF /* UIView+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PYExtension.h"; sourceTree = "<group>"; };
+		FCD19D311EA620B0003807CF /* UIView+PYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYExtension.m"; sourceTree = "<group>"; };
+		FCD19D331EA620B0003807CF /* PYPhotosNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotosNavigationController.h; sourceTree = "<group>"; };
+		FCD19D341EA620B0003807CF /* PYPhotosNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotosNavigationController.m; sourceTree = "<group>"; };
+		FCD19D351EA620B0003807CF /* PYPhotosPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotosPreviewController.h; sourceTree = "<group>"; };
+		FCD19D361EA620B0003807CF /* PYPhotosPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotosPreviewController.m; sourceTree = "<group>"; };
+		FCD19D371EA620B0003807CF /* PYPhotosReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotosReaderController.h; sourceTree = "<group>"; };
+		FCD19D381EA620B0003807CF /* PYPhotosReaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotosReaderController.m; sourceTree = "<group>"; };
+		FCD19D391EA620B0003807CF /* PYPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotosViewController.h; sourceTree = "<group>"; };
+		FCD19D3A1EA620B0003807CF /* PYPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotosViewController.m; sourceTree = "<group>"; };
+		FCD19D3C1EA620B0003807CF /* PYPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhoto.h; sourceTree = "<group>"; };
+		FCD19D3D1EA620B0003807CF /* PYPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhoto.m; sourceTree = "<group>"; };
+		FCD19D3F1EA620B0003807CF /* PYPhotoBrowserConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotoBrowserConst.h; sourceTree = "<group>"; };
+		FCD19D401EA620B0003807CF /* PYPhotoBrowserConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotoBrowserConst.m; sourceTree = "<group>"; };
+		FCD19D411EA620B0003807CF /* PYProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYProgressView.h; sourceTree = "<group>"; };
+		FCD19D421EA620B0003807CF /* PYProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYProgressView.m; sourceTree = "<group>"; };
+		FCD19D431EA620B0003807CF /* PYPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotoBrowser.h; sourceTree = "<group>"; };
+		FCD19D441EA620B0003807CF /* PYPhotosView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PYPhotosView.bundle; sourceTree = "<group>"; };
+		FCD19D461EA620B0003807CF /* PYPhotoBrowseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotoBrowseView.h; sourceTree = "<group>"; };
+		FCD19D471EA620B0003807CF /* PYPhotoBrowseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotoBrowseView.m; sourceTree = "<group>"; };
+		FCD19D481EA620B0003807CF /* PYPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotoCell.h; sourceTree = "<group>"; };
+		FCD19D491EA620B0003807CF /* PYPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotoCell.m; sourceTree = "<group>"; };
+		FCD19D4A1EA620B0003807CF /* PYPhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotosView.h; sourceTree = "<group>"; };
+		FCD19D4B1EA620B0003807CF /* PYPhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotosView.m; sourceTree = "<group>"; };
+		FCD19D4C1EA620B0003807CF /* PYPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotoView.h; sourceTree = "<group>"; };
+		FCD19D4D1EA620B0003807CF /* PYPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotoView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD19CF31EA62076003807CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD19D0C1EA62076003807CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD19D171EA62077003807CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD19CED1EA62076003807CF = {
+			isa = PBXGroup;
+			children = (
+				FCD19D2C1EA620B0003807CF /* NNPhotoBrowser */,
+				FCD19CF81EA62076003807CF /* NNPhotos */,
+				FCD19D121EA62077003807CF /* NNPhotosTests */,
+				FCD19D1D1EA62077003807CF /* NNPhotosUITests */,
+				FCD19CF71EA62076003807CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD19CF71EA62076003807CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD19CF61EA62076003807CF /* NNPhotos.app */,
+				FCD19D0F1EA62076003807CF /* NNPhotosTests.xctest */,
+				FCD19D1A1EA62077003807CF /* NNPhotosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD19CF81EA62076003807CF /* NNPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				FCD19CFC1EA62076003807CF /* AppDelegate.h */,
+				FCD19CFD1EA62076003807CF /* AppDelegate.m */,
+				FCD19CFF1EA62076003807CF /* ViewController.h */,
+				FCD19D001EA62076003807CF /* ViewController.m */,
+				FCD19D021EA62076003807CF /* Main.storyboard */,
+				FCD19D051EA62076003807CF /* Assets.xcassets */,
+				FCD19D071EA62076003807CF /* LaunchScreen.storyboard */,
+				FCD19D0A1EA62076003807CF /* Info.plist */,
+				FCD19CF91EA62076003807CF /* Supporting Files */,
+			);
+			path = NNPhotos;
+			sourceTree = "<group>";
+		};
+		FCD19CF91EA62076003807CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD19CFA1EA62076003807CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCD19D121EA62077003807CF /* NNPhotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD19D131EA62077003807CF /* NNPhotosTests.m */,
+				FCD19D151EA62077003807CF /* Info.plist */,
+			);
+			path = NNPhotosTests;
+			sourceTree = "<group>";
+		};
+		FCD19D1D1EA62077003807CF /* NNPhotosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD19D1E1EA62077003807CF /* NNPhotosUITests.m */,
+				FCD19D201EA62077003807CF /* Info.plist */,
+			);
+			path = NNPhotosUITests;
+			sourceTree = "<group>";
+		};
+		FCD19D2C1EA620B0003807CF /* NNPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				FCD19D2D1EA620B0003807CF /* Category */,
+				FCD19D321EA620B0003807CF /* Controller */,
+				FCD19D3B1EA620B0003807CF /* Model */,
+				FCD19D3E1EA620B0003807CF /* Other */,
+				FCD19D431EA620B0003807CF /* PYPhotoBrowser.h */,
+				FCD19D441EA620B0003807CF /* PYPhotosView.bundle */,
+				FCD19D451EA620B0003807CF /* View */,
+			);
+			path = NNPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		FCD19D2D1EA620B0003807CF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FCD19D2E1EA620B0003807CF /* MBProgressHUD+PYExtension.h */,
+				FCD19D2F1EA620B0003807CF /* MBProgressHUD+PYExtension.m */,
+				FCD19D301EA620B0003807CF /* UIView+PYExtension.h */,
+				FCD19D311EA620B0003807CF /* UIView+PYExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FCD19D321EA620B0003807CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCD19D331EA620B0003807CF /* PYPhotosNavigationController.h */,
+				FCD19D341EA620B0003807CF /* PYPhotosNavigationController.m */,
+				FCD19D351EA620B0003807CF /* PYPhotosPreviewController.h */,
+				FCD19D361EA620B0003807CF /* PYPhotosPreviewController.m */,
+				FCD19D371EA620B0003807CF /* PYPhotosReaderController.h */,
+				FCD19D381EA620B0003807CF /* PYPhotosReaderController.m */,
+				FCD19D391EA620B0003807CF /* PYPhotosViewController.h */,
+				FCD19D3A1EA620B0003807CF /* PYPhotosViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCD19D3B1EA620B0003807CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCD19D3C1EA620B0003807CF /* PYPhoto.h */,
+				FCD19D3D1EA620B0003807CF /* PYPhoto.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCD19D3E1EA620B0003807CF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FCD19D3F1EA620B0003807CF /* PYPhotoBrowserConst.h */,
+				FCD19D401EA620B0003807CF /* PYPhotoBrowserConst.m */,
+				FCD19D411EA620B0003807CF /* PYProgressView.h */,
+				FCD19D421EA620B0003807CF /* PYProgressView.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FCD19D451EA620B0003807CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCD19D461EA620B0003807CF /* PYPhotoBrowseView.h */,
+				FCD19D471EA620B0003807CF /* PYPhotoBrowseView.m */,
+				FCD19D481EA620B0003807CF /* PYPhotoCell.h */,
+				FCD19D491EA620B0003807CF /* PYPhotoCell.m */,
+				FCD19D4A1EA620B0003807CF /* PYPhotosView.h */,
+				FCD19D4B1EA620B0003807CF /* PYPhotosView.m */,
+				FCD19D4C1EA620B0003807CF /* PYPhotoView.h */,
+				FCD19D4D1EA620B0003807CF /* PYPhotoView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD19CF51EA62076003807CF /* NNPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD19D231EA62077003807CF /* Build configuration list for PBXNativeTarget "NNPhotos" */;
+			buildPhases = (
+				FCD19CF21EA62076003807CF /* Sources */,
+				FCD19CF31EA62076003807CF /* Frameworks */,
+				FCD19CF41EA62076003807CF /* Resources */,
+				A95E3D7A7B95CBE90A705B44 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNPhotos;
+			productName = NNPhotos;
+			productReference = FCD19CF61EA62076003807CF /* NNPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCD19D0E1EA62076003807CF /* NNPhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD19D261EA62077003807CF /* Build configuration list for PBXNativeTarget "NNPhotosTests" */;
+			buildPhases = (
+				89B03987CC6F9589ED5EF1FF /* [CP] Check Pods Manifest.lock */,
+				FCD19D0B1EA62076003807CF /* Sources */,
+				FCD19D0C1EA62076003807CF /* Frameworks */,
+				FCD19D0D1EA62076003807CF /* Resources */,
+				CEE8DB9972508B8350BCDEB6 /* [CP] Embed Pods Frameworks */,
+				3DAA492DBF923CC33A0ADE5B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD19D111EA62076003807CF /* PBXTargetDependency */,
+			);
+			name = NNPhotosTests;
+			productName = NNPhotosTests;
+			productReference = FCD19D0F1EA62076003807CF /* NNPhotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCD19D191EA62077003807CF /* NNPhotosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD19D291EA62077003807CF /* Build configuration list for PBXNativeTarget "NNPhotosUITests" */;
+			buildPhases = (
+				83BFBE038E6623246184B9F2 /* [CP] Check Pods Manifest.lock */,
+				FCD19D161EA62077003807CF /* Sources */,
+				FCD19D171EA62077003807CF /* Frameworks */,
+				FCD19D181EA62077003807CF /* Resources */,
+				201EBFDFBEA7B7A783BE05DF /* [CP] Embed Pods Frameworks */,
+				8D60AEC4EDFEA1EA53C6CF20 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD19D1C1EA62077003807CF /* PBXTargetDependency */,
+			);
+			name = NNPhotosUITests;
+			productName = NNPhotosUITests;
+			productReference = FCD19D1A1EA62077003807CF /* NNPhotosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD19CEE1EA62076003807CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Dylan;
+				TargetAttributes = {
+					FCD19CF51EA62076003807CF = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = Q6B26U4GWX;
+						ProvisioningStyle = Automatic;
+					};
+					FCD19D0E1EA62076003807CF = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = Q6B26U4GWX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCD19CF51EA62076003807CF;
+					};
+					FCD19D191EA62077003807CF = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = Q6B26U4GWX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCD19CF51EA62076003807CF;
+					};
+				};
+			};
+			buildConfigurationList = FCD19CF11EA62076003807CF /* Build configuration list for PBXProject "NNPhotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCD19CED1EA62076003807CF;
+			productRefGroup = FCD19CF71EA62076003807CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD19CF51EA62076003807CF /* NNPhotos */,
+				FCD19D0E1EA62076003807CF /* NNPhotosTests */,
+				FCD19D191EA62077003807CF /* NNPhotosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD19CF41EA62076003807CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD19D571EA620B0003807CF /* PYPhotosView.bundle in Resources */,
+				FCD19D091EA62076003807CF /* LaunchScreen.storyboard in Resources */,
+				FCD19D061EA62076003807CF /* Assets.xcassets in Resources */,
+				FCD19D041EA62076003807CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD19D0D1EA62076003807CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD19D181EA62077003807CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		201EBFDFBEA7B7A783BE05DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNPhotosUITests/Pods-NNPhotosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DAA492DBF923CC33A0ADE5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNPhotosTests/Pods-NNPhotosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83BFBE038E6623246184B9F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89B03987CC6F9589ED5EF1FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D60AEC4EDFEA1EA53C6CF20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNPhotosUITests/Pods-NNPhotosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A95E3D7A7B95CBE90A705B44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNPhotos/Pods-NNPhotos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEE8DB9972508B8350BCDEB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNPhotosTests/Pods-NNPhotosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD19CF21EA62076003807CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD19D5A1EA620B0003807CF /* PYPhotosView.m in Sources */,
+				FCD19D561EA620B0003807CF /* PYProgressView.m in Sources */,
+				FCD19D591EA620B0003807CF /* PYPhotoCell.m in Sources */,
+				FCD19D4E1EA620B0003807CF /* MBProgressHUD+PYExtension.m in Sources */,
+				FCD19D541EA620B0003807CF /* PYPhoto.m in Sources */,
+				FCD19D011EA62076003807CF /* ViewController.m in Sources */,
+				FCD19D5B1EA620B0003807CF /* PYPhotoView.m in Sources */,
+				FCD19D521EA620B0003807CF /* PYPhotosReaderController.m in Sources */,
+				FCD19CFE1EA62076003807CF /* AppDelegate.m in Sources */,
+				FCD19D511EA620B0003807CF /* PYPhotosPreviewController.m in Sources */,
+				FCD19D531EA620B0003807CF /* PYPhotosViewController.m in Sources */,
+				FCD19D501EA620B0003807CF /* PYPhotosNavigationController.m in Sources */,
+				FCD19D551EA620B0003807CF /* PYPhotoBrowserConst.m in Sources */,
+				FCD19CFB1EA62076003807CF /* main.m in Sources */,
+				FCD19D581EA620B0003807CF /* PYPhotoBrowseView.m in Sources */,
+				FCD19D4F1EA620B0003807CF /* UIView+PYExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD19D0B1EA62076003807CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD19D141EA62077003807CF /* NNPhotosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD19D161EA62077003807CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD19D1F1EA62077003807CF /* NNPhotosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCD19D111EA62076003807CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD19CF51EA62076003807CF /* NNPhotos */;
+			targetProxy = FCD19D101EA62076003807CF /* PBXContainerItemProxy */;
+		};
+		FCD19D1C1EA62077003807CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD19CF51EA62076003807CF /* NNPhotos */;
+			targetProxy = FCD19D1B1EA62077003807CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCD19D021EA62076003807CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD19D031EA62076003807CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCD19D071EA62076003807CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD19D081EA62076003807CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCD19D211EA62077003807CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCD19D221EA62077003807CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD19D241EA62077003807CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q6B26U4GWX;
+				INFOPLIST_FILE = NNPhotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifesense.dylan.NNPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCD19D251EA62077003807CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q6B26U4GWX;
+				INFOPLIST_FILE = NNPhotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifesense.dylan.NNPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCD19D271EA62077003807CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q6B26U4GWX;
+				INFOPLIST_FILE = NNPhotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifesense.dylan.NNPhotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNPhotos.app/NNPhotos";
+			};
+			name = Debug;
+		};
+		FCD19D281EA62077003807CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q6B26U4GWX;
+				INFOPLIST_FILE = NNPhotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifesense.dylan.NNPhotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNPhotos.app/NNPhotos";
+			};
+			name = Release;
+		};
+		FCD19D2A1EA62077003807CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q6B26U4GWX;
+				INFOPLIST_FILE = NNPhotosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifesense.dylan.NNPhotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NNPhotos;
+			};
+			name = Debug;
+		};
+		FCD19D2B1EA62077003807CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q6B26U4GWX;
+				INFOPLIST_FILE = NNPhotosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifesense.dylan.NNPhotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NNPhotos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD19CF11EA62076003807CF /* Build configuration list for PBXProject "NNPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD19D211EA62077003807CF /* Debug */,
+				FCD19D221EA62077003807CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD19D231EA62077003807CF /* Build configuration list for PBXNativeTarget "NNPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD19D241EA62077003807CF /* Debug */,
+				FCD19D251EA62077003807CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD19D261EA62077003807CF /* Build configuration list for PBXNativeTarget "NNPhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD19D271EA62077003807CF /* Debug */,
+				FCD19D281EA62077003807CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD19D291EA62077003807CF /* Build configuration list for PBXNativeTarget "NNPhotosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD19D2A1EA62077003807CF /* Debug */,
+				FCD19D2B1EA62077003807CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCD19CEE1EA62076003807CF /* Project object */;
+}
