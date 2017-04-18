@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		054C6C56F8B832A58C5B124B /* libPods-NNPhotosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E30596976B9124CC111E69 /* libPods-NNPhotosUITests.a */; };
+		6E64C8B5FA38CB321DCEB37F /* libPods-NNPhotos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A63F3F2C60D80A2B463A5D /* libPods-NNPhotos.a */; };
+		A946896CBF61F64FFDDA5A2F /* libPods-NNPhotosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 970A1CAC40AD60D091CD4DD2 /* libPods-NNPhotosTests.a */; };
 		FCD19CFB1EA62076003807CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19CFA1EA62076003807CF /* main.m */; };
 		FCD19CFE1EA62076003807CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19CFD1EA62076003807CF /* AppDelegate.m */; };
 		FCD19D011EA62076003807CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D001EA62076003807CF /* ViewController.m */; };
@@ -49,6 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03A63F3F2C60D80A2B463A5D /* libPods-NNPhotos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNPhotos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6860E8DF3DF4D57A4DA7ED92 /* Pods-NNPhotosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotosUITests/Pods-NNPhotosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		775F1BE00A49EB8B9E26852D /* Pods-NNPhotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotos/Pods-NNPhotos.debug.xcconfig"; sourceTree = "<group>"; };
+		831C8A706254BB8502F64355 /* Pods-NNPhotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotos.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotos/Pods-NNPhotos.release.xcconfig"; sourceTree = "<group>"; };
+		970A1CAC40AD60D091CD4DD2 /* libPods-NNPhotosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNPhotosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9782D3B9A362EFC796D6D39 /* Pods-NNPhotosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotosTests/Pods-NNPhotosTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9C6E587FAC61E204AB5A00A /* Pods-NNPhotosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotosTests/Pods-NNPhotosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D08BAB60A16280A3413E0A76 /* Pods-NNPhotosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotosUITests/Pods-NNPhotosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9E30596976B9124CC111E69 /* libPods-NNPhotosUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNPhotosUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD19CF61EA62076003807CF /* NNPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD19CFA1EA62076003807CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCD19CFC1EA62076003807CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E64C8B5FA38CB321DCEB37F /* libPods-NNPhotos.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A946896CBF61F64FFDDA5A2F /* libPods-NNPhotosTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,12 +128,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054C6C56F8B832A58C5B124B /* libPods-NNPhotosUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49CEFC80E0337165848D19BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				775F1BE00A49EB8B9E26852D /* Pods-NNPhotos.debug.xcconfig */,
+				831C8A706254BB8502F64355 /* Pods-NNPhotos.release.xcconfig */,
+				C9C6E587FAC61E204AB5A00A /* Pods-NNPhotosTests.debug.xcconfig */,
+				A9782D3B9A362EFC796D6D39 /* Pods-NNPhotosTests.release.xcconfig */,
+				6860E8DF3DF4D57A4DA7ED92 /* Pods-NNPhotosUITests.debug.xcconfig */,
+				D08BAB60A16280A3413E0A76 /* Pods-NNPhotosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6519256974FACBB39F66F8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03A63F3F2C60D80A2B463A5D /* libPods-NNPhotos.a */,
+				970A1CAC40AD60D091CD4DD2 /* libPods-NNPhotosTests.a */,
+				F9E30596976B9124CC111E69 /* libPods-NNPhotosUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FCD19CED1EA62076003807CF = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +166,8 @@
 				FCD19D121EA62077003807CF /* NNPhotosTests */,
 				FCD19D1D1EA62077003807CF /* NNPhotosUITests */,
 				FCD19CF71EA62076003807CF /* Products */,
+				49CEFC80E0337165848D19BF /* Pods */,
+				C6519256974FACBB39F66F8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -265,10 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCD19D231EA62077003807CF /* Build configuration list for PBXNativeTarget "NNPhotos" */;
 			buildPhases = (
+				CCAE0963C89402AAAFEE70EB /* [CP] Check Pods Manifest.lock */,
 				FCD19CF21EA62076003807CF /* Sources */,
 				FCD19CF31EA62076003807CF /* Frameworks */,
 				FCD19CF41EA62076003807CF /* Resources */,
 				A95E3D7A7B95CBE90A705B44 /* [CP] Embed Pods Frameworks */,
+				AB46E8AC3B1208A6158529E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -488,6 +530,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNPhotos/Pods-NNPhotos-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AB46E8AC3B1208A6158529E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNPhotos/Pods-NNPhotos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCAE0963C89402AAAFEE70EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		CEE8DB9972508B8350BCDEB6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -672,6 +744,7 @@
 		};
 		FCD19D241EA62077003807CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775F1BE00A49EB8B9E26852D /* Pods-NNPhotos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q6B26U4GWX;
@@ -684,6 +757,7 @@
 		};
 		FCD19D251EA62077003807CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831C8A706254BB8502F64355 /* Pods-NNPhotos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q6B26U4GWX;
@@ -696,6 +770,7 @@
 		};
 		FCD19D271EA62077003807CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C6E587FAC61E204AB5A00A /* Pods-NNPhotosTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Q6B26U4GWX;
@@ -709,6 +784,7 @@
 		};
 		FCD19D281EA62077003807CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9782D3B9A362EFC796D6D39 /* Pods-NNPhotosTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Q6B26U4GWX;
@@ -722,6 +798,7 @@
 		};
 		FCD19D2A1EA62077003807CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6860E8DF3DF4D57A4DA7ED92 /* Pods-NNPhotosUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = Q6B26U4GWX;
 				INFOPLIST_FILE = NNPhotosUITests/Info.plist;
@@ -734,6 +811,7 @@
 		};
 		FCD19D2B1EA62077003807CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D08BAB60A16280A3413E0A76 /* Pods-NNPhotosUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = Q6B26U4GWX;
 				INFOPLIST_FILE = NNPhotosUITests/Info.plist;
