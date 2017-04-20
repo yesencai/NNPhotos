@@ -12,9 +12,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/yesencai/NNPhotos.git", :tag => "#{s.version}" }
   s.source_files  = "NNPhotoBrowser/**/*.{h,m}"
   s.resource  = 'NNPhotoBrowser/PYPhotosView.bundle'
-  s.dependency "SDWebImage", "~> 3.8.2"
-  s.dependency "MBProgressHUD"
-  s.dependency "DACircularProgress"
   s.requires_arc = true
 
 end
