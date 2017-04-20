@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50699CC76F20E352EB23345A /* libPods-NNPhotos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1F141D6A04C1B154535783 /* libPods-NNPhotos.a */; };
-		6FECB4834A05058E6BE08679 /* libPods-NNPhotosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9741F2DDAC134E962AD8A5 /* libPods-NNPhotosTests.a */; };
-		706E292E684B1143D98D709A /* libPods-NNPhotos-NNPhotosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB95C8DB7616363F28062A47 /* libPods-NNPhotos-NNPhotosTests.a */; };
-		A67B02F48DFFFCB03B308AD9 /* libPods-NNPhotos-NNPhotosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBB3A7598E723CD483FDF87 /* libPods-NNPhotos-NNPhotosUITests.a */; };
-		ED09A674F7C1A023BC416292 /* libPods-NNPhotosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F2FF924D31CF735953293F /* libPods-NNPhotosUITests.a */; };
+		FC1D201C1EA8B36E00C95C1F /* NNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D201B1EA8B36E00C95C1F /* NNButton.m */; };
 		FCD19CFB1EA62076003807CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19CFA1EA62076003807CF /* main.m */; };
 		FCD19CFE1EA62076003807CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19CFD1EA62076003807CF /* AppDelegate.m */; };
 		FCD19D011EA62076003807CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D001EA62076003807CF /* ViewController.m */; };
@@ -20,20 +16,7 @@
 		FCD19D091EA62076003807CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD19D071EA62076003807CF /* LaunchScreen.storyboard */; };
 		FCD19D141EA62077003807CF /* NNPhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D131EA62077003807CF /* NNPhotosTests.m */; };
 		FCD19D1F1EA62077003807CF /* NNPhotosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D1E1EA62077003807CF /* NNPhotosUITests.m */; };
-		FCD19D4E1EA620B0003807CF /* MBProgressHUD+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D2F1EA620B0003807CF /* MBProgressHUD+PYExtension.m */; };
-		FCD19D4F1EA620B0003807CF /* UIView+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D311EA620B0003807CF /* UIView+PYExtension.m */; };
-		FCD19D501EA620B0003807CF /* PYPhotosNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D341EA620B0003807CF /* PYPhotosNavigationController.m */; };
-		FCD19D511EA620B0003807CF /* PYPhotosPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D361EA620B0003807CF /* PYPhotosPreviewController.m */; };
-		FCD19D521EA620B0003807CF /* PYPhotosReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D381EA620B0003807CF /* PYPhotosReaderController.m */; };
-		FCD19D531EA620B0003807CF /* PYPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D3A1EA620B0003807CF /* PYPhotosViewController.m */; };
-		FCD19D541EA620B0003807CF /* PYPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D3D1EA620B0003807CF /* PYPhoto.m */; };
-		FCD19D551EA620B0003807CF /* PYPhotoBrowserConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D401EA620B0003807CF /* PYPhotoBrowserConst.m */; };
-		FCD19D561EA620B0003807CF /* PYProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D421EA620B0003807CF /* PYProgressView.m */; };
 		FCD19D571EA620B0003807CF /* PYPhotosView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCD19D441EA620B0003807CF /* PYPhotosView.bundle */; };
-		FCD19D581EA620B0003807CF /* PYPhotoBrowseView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D471EA620B0003807CF /* PYPhotoBrowseView.m */; };
-		FCD19D591EA620B0003807CF /* PYPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D491EA620B0003807CF /* PYPhotoCell.m */; };
-		FCD19D5A1EA620B0003807CF /* PYPhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D4B1EA620B0003807CF /* PYPhotosView.m */; };
-		FCD19D5B1EA620B0003807CF /* PYPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD19D4D1EA620B0003807CF /* PYPhotoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,21 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		092997E22AA17E02133D07D1 /* Pods-NNPhotosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotosTests/Pods-NNPhotosTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0B525447AE3181CCDA9BC4B6 /* Pods-NNPhotos-NNPhotosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotos-NNPhotosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotos-NNPhotosTests/Pods-NNPhotos-NNPhotosTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5AC6B46597167E9957974577 /* Pods-NNPhotosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotosTests/Pods-NNPhotosTests.release.xcconfig"; sourceTree = "<group>"; };
-		62BF4C39C1F6C256A6844FE8 /* Pods-NNPhotosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotosUITests/Pods-NNPhotosUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7A0BD00A7AB4E027BD59C622 /* Pods-NNPhotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotos/Pods-NNPhotos.debug.xcconfig"; sourceTree = "<group>"; };
-		8FBB3A7598E723CD483FDF87 /* libPods-NNPhotos-NNPhotosUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNPhotos-NNPhotosUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		97BE7822AA13427811E414B7 /* Pods-NNPhotos-NNPhotosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotos-NNPhotosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotos-NNPhotosUITests/Pods-NNPhotos-NNPhotosUITests.release.xcconfig"; sourceTree = "<group>"; };
-		AB234B7714BB343694D526BD /* Pods-NNPhotos-NNPhotosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotos-NNPhotosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotos-NNPhotosTests/Pods-NNPhotos-NNPhotosTests.release.xcconfig"; sourceTree = "<group>"; };
-		AB9741F2DDAC134E962AD8A5 /* libPods-NNPhotosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNPhotosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C76F6701C9E56192F9D71C36 /* Pods-NNPhotosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotosUITests/Pods-NNPhotosUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D27CB83529A2637332AEBF1A /* Pods-NNPhotos-NNPhotosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotos-NNPhotosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotos-NNPhotosUITests/Pods-NNPhotos-NNPhotosUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E0F2FF924D31CF735953293F /* libPods-NNPhotosUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNPhotosUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA1F141D6A04C1B154535783 /* libPods-NNPhotos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNPhotos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB95C8DB7616363F28062A47 /* libPods-NNPhotos-NNPhotosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNPhotos-NNPhotosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBCECC2E5A9F1193ED3610CA /* Pods-NNPhotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNPhotos.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNPhotos/Pods-NNPhotos.release.xcconfig"; sourceTree = "<group>"; };
+		FC1D201A1EA8B36E00C95C1F /* NNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNButton.h; sourceTree = "<group>"; };
+		FC1D201B1EA8B36E00C95C1F /* NNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNButton.m; sourceTree = "<group>"; };
 		FCD19CF61EA62076003807CF /* NNPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD19CFA1EA62076003807CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCD19CFC1EA62076003807CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,34 +55,7 @@
 		FCD19D1A1EA62077003807CF /* NNPhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNPhotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD19D1E1EA62077003807CF /* NNPhotosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNPhotosUITests.m; sourceTree = "<group>"; };
 		FCD19D201EA62077003807CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCD19D2E1EA620B0003807CF /* MBProgressHUD+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+PYExtension.h"; sourceTree = "<group>"; };
-		FCD19D2F1EA620B0003807CF /* MBProgressHUD+PYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+PYExtension.m"; sourceTree = "<group>"; };
-		FCD19D301EA620B0003807CF /* UIView+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PYExtension.h"; sourceTree = "<group>"; };
-		FCD19D311EA620B0003807CF /* UIView+PYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYExtension.m"; sourceTree = "<group>"; };
-		FCD19D331EA620B0003807CF /* PYPhotosNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotosNavigationController.h; sourceTree = "<group>"; };
-		FCD19D341EA620B0003807CF /* PYPhotosNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotosNavigationController.m; sourceTree = "<group>"; };
-		FCD19D351EA620B0003807CF /* PYPhotosPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotosPreviewController.h; sourceTree = "<group>"; };
-		FCD19D361EA620B0003807CF /* PYPhotosPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotosPreviewController.m; sourceTree = "<group>"; };
-		FCD19D371EA620B0003807CF /* PYPhotosReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotosReaderController.h; sourceTree = "<group>"; };
-		FCD19D381EA620B0003807CF /* PYPhotosReaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotosReaderController.m; sourceTree = "<group>"; };
-		FCD19D391EA620B0003807CF /* PYPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotosViewController.h; sourceTree = "<group>"; };
-		FCD19D3A1EA620B0003807CF /* PYPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotosViewController.m; sourceTree = "<group>"; };
-		FCD19D3C1EA620B0003807CF /* PYPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhoto.h; sourceTree = "<group>"; };
-		FCD19D3D1EA620B0003807CF /* PYPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhoto.m; sourceTree = "<group>"; };
-		FCD19D3F1EA620B0003807CF /* PYPhotoBrowserConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotoBrowserConst.h; sourceTree = "<group>"; };
-		FCD19D401EA620B0003807CF /* PYPhotoBrowserConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotoBrowserConst.m; sourceTree = "<group>"; };
-		FCD19D411EA620B0003807CF /* PYProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYProgressView.h; sourceTree = "<group>"; };
-		FCD19D421EA620B0003807CF /* PYProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYProgressView.m; sourceTree = "<group>"; };
-		FCD19D431EA620B0003807CF /* PYPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotoBrowser.h; sourceTree = "<group>"; };
 		FCD19D441EA620B0003807CF /* PYPhotosView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PYPhotosView.bundle; sourceTree = "<group>"; };
-		FCD19D461EA620B0003807CF /* PYPhotoBrowseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotoBrowseView.h; sourceTree = "<group>"; };
-		FCD19D471EA620B0003807CF /* PYPhotoBrowseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotoBrowseView.m; sourceTree = "<group>"; };
-		FCD19D481EA620B0003807CF /* PYPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotoCell.h; sourceTree = "<group>"; };
-		FCD19D491EA620B0003807CF /* PYPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotoCell.m; sourceTree = "<group>"; };
-		FCD19D4A1EA620B0003807CF /* PYPhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotosView.h; sourceTree = "<group>"; };
-		FCD19D4B1EA620B0003807CF /* PYPhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotosView.m; sourceTree = "<group>"; };
-		FCD19D4C1EA620B0003807CF /* PYPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYPhotoView.h; sourceTree = "<group>"; };
-		FCD19D4D1EA620B0003807CF /* PYPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYPhotoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50699CC76F20E352EB23345A /* libPods-NNPhotos.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,8 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FECB4834A05058E6BE08679 /* libPods-NNPhotosTests.a in Frameworks */,
-				706E292E684B1143D98D709A /* libPods-NNPhotos-NNPhotosTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,41 +77,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED09A674F7C1A023BC416292 /* libPods-NNPhotosUITests.a in Frameworks */,
-				A67B02F48DFFFCB03B308AD9 /* libPods-NNPhotos-NNPhotosUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA017F190B12AC1051952991 /* Pods */ = {
+		FC1D20191EA8B35400C95C1F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7A0BD00A7AB4E027BD59C622 /* Pods-NNPhotos.debug.xcconfig */,
-				FBCECC2E5A9F1193ED3610CA /* Pods-NNPhotos.release.xcconfig */,
-				092997E22AA17E02133D07D1 /* Pods-NNPhotosTests.debug.xcconfig */,
-				5AC6B46597167E9957974577 /* Pods-NNPhotosTests.release.xcconfig */,
-				C76F6701C9E56192F9D71C36 /* Pods-NNPhotosUITests.debug.xcconfig */,
-				62BF4C39C1F6C256A6844FE8 /* Pods-NNPhotosUITests.release.xcconfig */,
-				0B525447AE3181CCDA9BC4B6 /* Pods-NNPhotos-NNPhotosTests.debug.xcconfig */,
-				AB234B7714BB343694D526BD /* Pods-NNPhotos-NNPhotosTests.release.xcconfig */,
-				D27CB83529A2637332AEBF1A /* Pods-NNPhotos-NNPhotosUITests.debug.xcconfig */,
-				97BE7822AA13427811E414B7 /* Pods-NNPhotos-NNPhotosUITests.release.xcconfig */,
+				FC1D201A1EA8B36E00C95C1F /* NNButton.h */,
+				FC1D201B1EA8B36E00C95C1F /* NNButton.m */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F51F0E0F2187FF1CF9EF63CB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EA1F141D6A04C1B154535783 /* libPods-NNPhotos.a */,
-				AB9741F2DDAC134E962AD8A5 /* libPods-NNPhotosTests.a */,
-				E0F2FF924D31CF735953293F /* libPods-NNPhotosUITests.a */,
-				EB95C8DB7616363F28062A47 /* libPods-NNPhotos-NNPhotosTests.a */,
-				8FBB3A7598E723CD483FDF87 /* libPods-NNPhotos-NNPhotosUITests.a */,
-			);
-			name = Frameworks;
+			path = View;
 			sourceTree = "<group>";
 		};
 		FCD19CED1EA62076003807CF = {
@@ -182,8 +100,6 @@
 				FCD19D121EA62077003807CF /* NNPhotosTests */,
 				FCD19D1D1EA62077003807CF /* NNPhotosUITests */,
 				FCD19CF71EA62076003807CF /* Products */,
-				AA017F190B12AC1051952991 /* Pods */,
-				F51F0E0F2187FF1CF9EF63CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -242,76 +158,10 @@
 		FCD19D2C1EA620B0003807CF /* NNPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				FCD19D2D1EA620B0003807CF /* Category */,
-				FCD19D321EA620B0003807CF /* Controller */,
-				FCD19D3B1EA620B0003807CF /* Model */,
-				FCD19D3E1EA620B0003807CF /* Other */,
-				FCD19D431EA620B0003807CF /* PYPhotoBrowser.h */,
+				FC1D20191EA8B35400C95C1F /* View */,
 				FCD19D441EA620B0003807CF /* PYPhotosView.bundle */,
-				FCD19D451EA620B0003807CF /* View */,
 			);
 			path = NNPhotoBrowser;
-			sourceTree = "<group>";
-		};
-		FCD19D2D1EA620B0003807CF /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				FCD19D2E1EA620B0003807CF /* MBProgressHUD+PYExtension.h */,
-				FCD19D2F1EA620B0003807CF /* MBProgressHUD+PYExtension.m */,
-				FCD19D301EA620B0003807CF /* UIView+PYExtension.h */,
-				FCD19D311EA620B0003807CF /* UIView+PYExtension.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		FCD19D321EA620B0003807CF /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				FCD19D331EA620B0003807CF /* PYPhotosNavigationController.h */,
-				FCD19D341EA620B0003807CF /* PYPhotosNavigationController.m */,
-				FCD19D351EA620B0003807CF /* PYPhotosPreviewController.h */,
-				FCD19D361EA620B0003807CF /* PYPhotosPreviewController.m */,
-				FCD19D371EA620B0003807CF /* PYPhotosReaderController.h */,
-				FCD19D381EA620B0003807CF /* PYPhotosReaderController.m */,
-				FCD19D391EA620B0003807CF /* PYPhotosViewController.h */,
-				FCD19D3A1EA620B0003807CF /* PYPhotosViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		FCD19D3B1EA620B0003807CF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				FCD19D3C1EA620B0003807CF /* PYPhoto.h */,
-				FCD19D3D1EA620B0003807CF /* PYPhoto.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		FCD19D3E1EA620B0003807CF /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				FCD19D3F1EA620B0003807CF /* PYPhotoBrowserConst.h */,
-				FCD19D401EA620B0003807CF /* PYPhotoBrowserConst.m */,
-				FCD19D411EA620B0003807CF /* PYProgressView.h */,
-				FCD19D421EA620B0003807CF /* PYProgressView.m */,
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		FCD19D451EA620B0003807CF /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FCD19D461EA620B0003807CF /* PYPhotoBrowseView.h */,
-				FCD19D471EA620B0003807CF /* PYPhotoBrowseView.m */,
-				FCD19D481EA620B0003807CF /* PYPhotoCell.h */,
-				FCD19D491EA620B0003807CF /* PYPhotoCell.m */,
-				FCD19D4A1EA620B0003807CF /* PYPhotosView.h */,
-				FCD19D4B1EA620B0003807CF /* PYPhotosView.m */,
-				FCD19D4C1EA620B0003807CF /* PYPhotoView.h */,
-				FCD19D4D1EA620B0003807CF /* PYPhotoView.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,12 +171,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCD19D231EA62077003807CF /* Build configuration list for PBXNativeTarget "NNPhotos" */;
 			buildPhases = (
-				F4D8A5518FFEA58D7EFBB1F3 /* [CP] Check Pods Manifest.lock */,
 				FCD19CF21EA62076003807CF /* Sources */,
 				FCD19CF31EA62076003807CF /* Frameworks */,
 				FCD19CF41EA62076003807CF /* Resources */,
-				A95E3D7A7B95CBE90A705B44 /* [CP] Embed Pods Frameworks */,
-				45DB601DD6029919F4EEA40C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -486,21 +333,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNPhotosTests/Pods-NNPhotosTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		45DB601DD6029919F4EEA40C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNPhotos/Pods-NNPhotos-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		83BFBE038E6623246184B9F2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -546,21 +378,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNPhotosUITests/Pods-NNPhotosUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A95E3D7A7B95CBE90A705B44 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNPhotos/Pods-NNPhotos-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CEE8DB9972508B8350BCDEB6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -576,21 +393,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNPhotosTests/Pods-NNPhotosTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F4D8A5518FFEA58D7EFBB1F3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -598,22 +400,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD19D5A1EA620B0003807CF /* PYPhotosView.m in Sources */,
-				FCD19D561EA620B0003807CF /* PYProgressView.m in Sources */,
-				FCD19D591EA620B0003807CF /* PYPhotoCell.m in Sources */,
-				FCD19D4E1EA620B0003807CF /* MBProgressHUD+PYExtension.m in Sources */,
-				FCD19D541EA620B0003807CF /* PYPhoto.m in Sources */,
 				FCD19D011EA62076003807CF /* ViewController.m in Sources */,
-				FCD19D5B1EA620B0003807CF /* PYPhotoView.m in Sources */,
-				FCD19D521EA620B0003807CF /* PYPhotosReaderController.m in Sources */,
+				FC1D201C1EA8B36E00C95C1F /* NNButton.m in Sources */,
 				FCD19CFE1EA62076003807CF /* AppDelegate.m in Sources */,
-				FCD19D511EA620B0003807CF /* PYPhotosPreviewController.m in Sources */,
-				FCD19D531EA620B0003807CF /* PYPhotosViewController.m in Sources */,
-				FCD19D501EA620B0003807CF /* PYPhotosNavigationController.m in Sources */,
-				FCD19D551EA620B0003807CF /* PYPhotoBrowserConst.m in Sources */,
 				FCD19CFB1EA62076003807CF /* main.m in Sources */,
-				FCD19D581EA620B0003807CF /* PYPhotoBrowseView.m in Sources */,
-				FCD19D4F1EA620B0003807CF /* UIView+PYExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -760,7 +550,6 @@
 		};
 		FCD19D241EA62077003807CF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A0BD00A7AB4E027BD59C622 /* Pods-NNPhotos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q6B26U4GWX;
@@ -773,7 +562,6 @@
 		};
 		FCD19D251EA62077003807CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBCECC2E5A9F1193ED3610CA /* Pods-NNPhotos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q6B26U4GWX;
@@ -786,7 +574,6 @@
 		};
 		FCD19D271EA62077003807CF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 092997E22AA17E02133D07D1 /* Pods-NNPhotosTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Q6B26U4GWX;
@@ -800,7 +587,6 @@
 		};
 		FCD19D281EA62077003807CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AC6B46597167E9957974577 /* Pods-NNPhotosTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Q6B26U4GWX;
@@ -814,7 +600,6 @@
 		};
 		FCD19D2A1EA62077003807CF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C76F6701C9E56192F9D71C36 /* Pods-NNPhotosUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = Q6B26U4GWX;
 				INFOPLIST_FILE = NNPhotosUITests/Info.plist;
@@ -827,7 +612,6 @@
 		};
 		FCD19D2B1EA62077003807CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62BF4C39C1F6C256A6844FE8 /* Pods-NNPhotosUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = Q6B26U4GWX;
 				INFOPLIST_FILE = NNPhotosUITests/Info.plist;
