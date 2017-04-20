@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NNPhotoBrowser"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "summary NNPhotoBrowser"
   s.description  = "A short description of NNPhotoBrowser."
   s.homepage     = "https://github.com/yesencai/NNPhotos"
